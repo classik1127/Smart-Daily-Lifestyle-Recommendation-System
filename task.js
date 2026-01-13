@@ -32,6 +32,7 @@ const btn = document.getElementById("btn");
 
 btn.onclick = function () {
   const nameInput = document.getElementById("name").value.trim();
+
   const temp = Number(document.getElementById("temp").value);
   const time = document.getElementById("time").value;
   const energy = document.getElementById("energy").value;
